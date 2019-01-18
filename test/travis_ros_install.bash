@@ -14,11 +14,11 @@ bash ./step0.bash
 bash ./step1.bash
 
 #catkin setup
-mkdir -p ~/catkin_ws/src
-cd ~/catkin_ws/src
+mkdir -p ~/catkin_ws_pi/src
+cd ~/catkin_ws_pi/src
 source /opt/ros/indigo/setup.bash
 catkin_init_workspace
-cd ~/catkin_ws
+cd ~/catkin_ws_pi
 catkin_make
 
 # Copyright 2016 Ryuichi Ueda
