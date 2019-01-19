@@ -5,4 +5,4 @@
 
 こちらでも確認しました。
 
-
+[![Build Status](https://travis-ci.org/norihisayamada/pimouse_ros.svg?branch=master)](https://travis-ci.org/norihisayamada/pimouse_ros)
