@@ -2,21 +2,6 @@ sudo: required
 dist: trusty
 script:
   - bash -xve ./test/travis_ros_install.bash
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   - source ~/catkin_ws_pi/devel/setup.bash
   - bash -xve ./test/travis_package_make.bash
   - source ~/catkin_ws_pi/devel/setup.bash
