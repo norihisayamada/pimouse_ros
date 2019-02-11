@@ -1,8 +1,8 @@
 #!/bin/bash -xve
 
 #sync and make
-rsync -av ./ ~/catkin_ws/src/pimouse_ros/
-cd ~/catkin_ws
+rsync -av ./ ~/catkin_ws_pi/src/pimouse_ros/
+cd ~/catkin_ws_pi
 catkin_make
 
 # Copyright 2016 Ryuichi Ueda
